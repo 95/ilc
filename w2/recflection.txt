@@ -1,3 +1,4 @@
-This week I continued with advanced OOP concepts in Python, such as encapsulation, polymorphism, and abstract classes. I also looked more into linear transformations, taking notes about what they can be practically used for, as well as their properties. I remember that in Machine Learning, linear transformations were used in order to reduce the dimensionality of the data that we were looking at in order to make it more manageable.
-
- I then applied both of these concepts and did some linear transformations in Python. I also looked at the specific imports that are used for abstract classes. One of which is called ABC, or abstract base class. It’s very different from Java, and a bit less intuitive. 
+This week I continued with advanced OOP concepts in Python, such as encapsulation, polymorphism, and abstract classes. 
+I also looked more into linear transformations, taking notes about what they can be practically used for, as well as their properties.
+I remember that in Machine Learning, linear transformations were used in order to reduce the dimensionality of the data that we were looking at in order to make it more manageable. I then applied both of these concepts and did some linear transformations in Python. 
+I also looked at the specific imports that are used for abstract classes. One of which is called ABC, or abstract base class. It’s very different from Java, and a bit less intuitive. 
