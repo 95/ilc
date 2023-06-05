@@ -1,0 +1,8 @@
+This week, I learned about Matrix Operations in Linear Algebra, the basics of Python, and then implemented the OOP aspects of Python. I also implemented Matrix Operations in Python using Numpy as well. 
+It was a good first few things to begin with, I realized that it’s a lot simpler than I thought it would be. 
+A question that I will want to answer in the future is, how do function operations on matrices work? I also found out that the “pass” keyword exists. 
+I never knew that before! 
+
+I also was enthused to learn the distinction between a scalar and vector – something that I’ve had confusions about prior. 
+Understanding the attributes that vectors have, which are magnitude and direction, has been key in clearing up some confusion for me. 
+Also understanding that two vectors can be equal even if they are on different points in a graph has been super helpful. 
