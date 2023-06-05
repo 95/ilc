@@ -1,0 +1,7 @@
+This week, I began looking at asynchronous functions in Python, which includes creating and managing multiple asynchronous tasks. 
+I also continued my studies in Vectors, ending with covering the concept of Unit Vectors – which were pretty simple to understand.
+Also began looking at Vector Spaces, which was a term I hadn’t heard of before. Naturally, they have a bunch of rules, many of them being “identities” or something of the sort. 
+It didn’t interest me much. The attributes, such as dimension and basis are all straightforward, however.
+
+This week’s learning made me realize that asynchronous tasks in Python are incredibly important. To have something run in the background of your application without it having to pause for a response can be useful in many contexts, especially web requests or queues. 
+I read that it also helps for GUI programming, as when data is loading, the UI still needs to be able to respond to user input.
