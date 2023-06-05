@@ -64,10 +64,8 @@ param_grid = {
     'penalty': ['l1', 'l2']
 }
 
-# Create a GridSearchCV object
 grid_search = GridSearchCV(model, param_grid, cv=10, scoring='accuracy')
 
-# Fit the GridSearchCV object to the data
 grid_search.fit(X_train, y_train)
 
 # Print the best parameters and the best score
