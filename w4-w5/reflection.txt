@@ -1,0 +1,21 @@
+In the past two weeks, I've been working on understanding the basics and principles of sklearn, pandas, and numpy.
+I began my studies with working with a kaggle dataset, the BRCA.csv file. This contains a list of tumor specifications and 
+their corresponding status, whether they are malignant (cancerous) or benign.
+
+For this, I used the logistic regression classifier in order to classify the inputs as malignant (1) or benign (0).
+I chose logistic regression for this because it is the simplest classifier that I know of, and in a binary problem such as this, I thought it was fitting.
+
+I immediately learned that the preprocessing and formatting of the data is very important.
+Data doesn't come pre-packaged and scaled for you, so I had to learna bout the standardscaler module and understand 
+how that works and how to use it. A lot of list methods are also used in this area of python, so I'm getting pretty comfortable with them as well.
+
+The breast cancer model was an initial success, with around a 94% success rate. 
+I performed gridsearch on it as well in order to determine whether I was at the optimal solution.
+It found the best parameters for the model and I used those in the end.
+
+The dispute predictionw was for a website one of my friends owns. He has a lot of user & transaction data, and I asked if he'd 
+lend me access to his SQL database. I scraped the data into a CSV and then tried to predict the payment dispute chance based on the
+buyer's information, such as payment method, time, etc. 
+
+However, I learned a great lesson by doing so. I tried and tried, and then realized -- there's not enough data for chargebacks! 
+If I only have 150 occurences out of 100,000 lines, it's most definitely not enough to make a model out of.

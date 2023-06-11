@@ -1,0 +1,25 @@
+I've heard the terms bias and variance a lot. 
+These two terms seemed very important within machine learning, so I thought it'd be useful to learn about them.
+I thought it'd be a lot more difficult than it was. 
+
+They're just attributes to describe how data is organized.
+For a given set of points:
+Being closer to the truth means that there's low bias.
+Being further from the truth means that there's high bias. 
+Being more spread out means there's more variance, and being less spread out means there's less variance
+
+The worst case scenario is that there is high bias and high variance, which means that the data
+isn't grouped well (very scattered) and that it's not accurate whatsoever.
+
+I also dabbled in some functional programming for a bit (because you told me to), but I quickly
+realized why I wanted to do an ILC instead of haskell. I don't like functional programming at all.
+However, I did appreciate how it worked in Python and saw the advantages of it. 
+It allowed me to generalize a higher order function quickly.
+
+Toward the end of the week, I wanted to do some LeetCode challenges in Python. I included one of my answers.
+
+Then, I also wanted to do something asynchronously with Selenium. 
+I made an update checker bot for Discord, which determines whether the new update has been released or not. 
+This was less about making an actual tool and more about making code that is asynchronous and works.
+
+I learned a lot about async just by programming this.

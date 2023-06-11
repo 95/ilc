@@ -1,0 +1,39 @@
+During these two weeks, I decided to cover the important concepts in Machine Learning
+and also apply them to datasets in order to strengthen my understanding of them.
+I learn a lot better when I program rather than listening or watching a lecture, so it's exactly what I did.
+
+I began by studying about linear regression. I never knew it was this complicated from a statistical perspective.
+It dealt with things like p-values, R^2, sum of squares, etc.
+I also learned a few new things -- residuals, & p-values. 
+
+P-values are imperative in the operation of linear regression. They determine the likelihood of 
+observing the relationship between the x variables and the y variables by chance.
+
+In essence:
+ceiling(p) = high likelihood of correlation
+floor(p) = low likelihood of correlation
+
+Linear Regression is important in order to predict a continuous numerical outcome.
+It's not for classification and shouldn't be confused with logistic regression.
+
+Logistic regression, on the other hand, allows us to predict the probability of something
+happening given a few different input variables.
+The inputs can be of any numerical type, but the important part is that the output is binary. It's 0 or 1.
+
+This means that the threshold in which we place our boundary for the activation function is important.
+If we set it too low, it'll be a false positive result. If we set it too high, it won't trigger at all.
+
+
+I also did k-means clustering during this two week period, 
+which taught me more than I thought it was going to. I initially looked at it just for review,
+but there were a few things that I found interesting:
+- The random initialization trap.
+Since centroids are typically randomly initialized, if they're initialized in a 
+manner that significantly influences the final cluster outcome, the model will be skewed
+and organized suboptimally. Different initializations means different cluster grouping.
+
+The remediation for this is k-means++ algorithm, which initializes the centroids in a manner
+that adequately separates them from one another.
+
+K-nearest-neighbors was also attempted and studied about, but I didn't have very many problems
+with understanding it. It was pretty self evident and simple enough to understand.

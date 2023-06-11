@@ -1,0 +1,20 @@
+Image compression was pretty fun.
+It also helped me learn more about principle component analysis.
+PCA allows us to boil our set down to what matters the most, while also making sure that we keep the data we care about.
+It's like a life hack for machine learning. It's pretty cool. 
+
+In other words, it takes an n-dimensional dataset and finds the best axis (the one that preserves the most variance), 
+and then plots the points of the dataset onto it. 
+
+I had a lot of trouble with this lab, even though it was fun. 
+There were some dependency problems with cv2, and my computer was being a bit iffy about the imports.
+I reinstalled Python and it ended up working. Weird.
+During the lab, I broke down the image into multiple pieces based on the 3 channels and then
+reduced the number of components for each piece using PCA.
+
+Then, I put it back together.
+
+Not only did I learn about PCA during this lab, I also learned about how image compression works.
+
+The additional two Python files are for the CTF. Xorly I was able to solve after a minor headache and lots of stackoverflow.
+The ctfcbc I was never able to solve, though I gave it a valiant effort. I wouldn't like to talk about that. It was a nightmare.

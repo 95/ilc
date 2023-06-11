@@ -55,12 +55,11 @@ print(f'Accuracy: {accuracy}')
 
 from sklearn.model_selection import GridSearchCV
 
-# Define the model
 model = LogisticRegression(solver='liblinear')
 
 # Define the parameters to search over
 param_grid = {
-    'C': np.logspace(-4, 4, 20), # log-spaced sequence of 20 values between 10^-4 and 10^4
+    'C': np.logspace(-4, 4, 20), 
     'penalty': ['l1', 'l2']
 }
 

@@ -1,0 +1,28 @@
+I found change of basis pretty interesting, but it was also a difficult concept to grasp at first.
+The more I've looked over it, the more I understand it, but it still isn't completely solidified in my mind.
+
+I also looked at single value decomposition, which was something that we covered in class but I was always interested in revisiting.
+It's amazing how powerful it is, especially when it can be reduced to only a few steps:
+
+1. Rotation
+2. Stretch
+3. Rotation
+
+Conceptually, the idea that any matrix can be written as the product of 3 special matrices is easy enough to understand.
+The different ways of doing dimension gymnastics were interesting to study as well.
+This includes adding a dimension, removing a dimension, etc. It seems difficult, but all it is is matrix multiplication!
+I'm beginning to see patterns in what I'm studying. There are a few fundamental ideas I've come across, such as the fact that 
+matrices with certain values can have special properties.
+
+Going back to change of basis, I think that it's a very useful concept because it allows us to
+interpret data from another point of view. Literally. We can interpret this data from an entirely different dimension,
+which in itself sounds pretty cool. By transforming what we're focusing on, we can reveal patterns that we may not see at first.
+
+Certain problems may be easier in a certain coordinate system as well, which makes it easier for us.
+
+Support Vector machine was nice too. I remember a bit about it from our prior class, but I wanted to solidify my understanding.
+Again, feature scaling was an important step to do. I cannot understate how much I pay attention to that now.
+I've also appreciated the simplicity and usefulness of a confusion matrix.
+
+I also learned that the kernel that we use in our SVM can be incredibly impactful on the accuracy of our model.
+If we use a linear kernel on data that is not linearly separable, it's going to do very poorly.
