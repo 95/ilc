@@ -22,4 +22,4 @@ class Solution:
 
 if __name__ == '__main__':
     soln = Solution()
-    print(soln.reverse(6665))
+    print(soln.reverse(-6665))
